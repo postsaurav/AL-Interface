@@ -14,6 +14,22 @@ pageextension 50000 "SDH Customer Card" extends "Customer Card"
 
     actions
     {
-        // Add changes to page actions here
+        addfirst("F&unctions")
+        {
+            action(SetRating)
+            {
+                ApplicationArea = All;
+                Image = CustomerRating;
+                trigger OnAction()
+                var
+                    SalesReceivablesSetup: Record "Sales & Receivables Setup";
+                    RatingImplementation: Interface "SDH Rating";
+                begin
+                    SalesReceivablesSetup.Get();
+                    RatingImplementation := SalesReceivablesSetup."SDH Rating Method";
+                    RatingImplementation.SetCustomerRating(Rec);
+                end;
+            }
+        }
     }
 }
