@@ -1,0 +1,30 @@
+{
+  "id": "37fb9425-a589-4bb7-902e-00cd10178725",
+  "name": "AL Interface Sub",
+  "publisher": "Saurav Dhyani",
+  "brief": "This is a Example Extension to expalin Extending AL Interfaces.",
+  "description": "This extension defines the extending that interface extension.",
+  "version": "1.18.0.0",
+  "runtime": "7.0",
+  "privacyStatement": "https://www.sauravdhyani.com/",
+  "EULA": "https://www.sauravdhyani.com/",
+  "help": "https://www.sauravdhyani.com/contact/",
+  "contextSensitiveHelpUrl": "https://www.sauravdhyani.com/",
+  "url": "https://www.sauravdhyani.com/",
+  "logo": "image/sauravdhyani.png",
+  "dependencies": [
+  ],
+  "screenshots": [],
+  "platform": "18.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+  ],
+  "features": [
+    "TranslationFile"
+  ],
+  "showMyCode": true
+}
