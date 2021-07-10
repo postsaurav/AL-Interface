@@ -13,6 +13,12 @@
   "url": "https://www.sauravdhyani.com/",
   "logo": "image/sauravdhyani.png",
   "dependencies": [
+    {
+      "id": "558f48aa-011f-498d-ac22-4751f84464a8",
+      "name": "AL Interface",
+      "publisher": "Saurav Dhyani",      
+      "version": "1.0.0.0"
+    }
   ],
   "screenshots": [],
   "platform": "18.0.0.0",
